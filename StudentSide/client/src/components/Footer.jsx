@@ -9,7 +9,7 @@ const footer=()=>{
     <div class="row">
       <div class="white-box" >
         <h6 class="sectionSubHead" style={{color:"#676770",textAlign:'left'}}>CONTACT US</h6>
-        <p class="para" style={{textAlign:'left'}}>Whatsapp number - +91 00000 00000 <br /> Email - eguru@gmail.com <br /> Please feel free to contact us for any related  <br /> queries. Sairam.</p>
+        <p class="para" style={{textAlign:'left'}}>Whatsapp number - +79153154115 <br /> Email - marathmel@gmail.com <br /> Please feel free to contact us for any related  <br /> queries. Sairam.</p>
       </div>
       <div class="white-box" style={{textAlign:'left'}}>
         <h6 class="sectionSubHead" style={{color:"#676770",textAlign:'left'}}>USEFUL LINKS</h6>

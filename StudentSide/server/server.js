@@ -17,10 +17,10 @@ require('dotenv').config({
 
 
 //development configuration
-if(process.env.NODE_ENV==='development'){
+
     app.use(cors( {origin: process.env.CLIENT_URL} ));
     app.use(morgan('dev'));
-}
+
 
 const PORT = process.env.PORT;
 

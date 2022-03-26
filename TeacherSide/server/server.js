@@ -19,13 +19,13 @@ require("dotenv").config( {path:'./config/config.env'} )
 
 
 //development configuration
-if(process.env.NODE_ENV==='development'){
+
     app.use(cors( {origin: process.env.CLIENT_URL} ));
     app.use(morgan('dev'));
 
     //cors - interact with react
     //morgan display request info
-}
+
 
 //opening port
 const PORT=process.env.PORT;

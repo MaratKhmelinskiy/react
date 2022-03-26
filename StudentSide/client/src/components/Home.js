@@ -1,5 +1,5 @@
 
-import img from '../images/main_img.jpg';
+import img from '../images/qaHomePage.png';
 import { Link,useHistory } from 'react-router-dom';
 import {signout, isAuth} from '../helpers/auth';
 
@@ -18,17 +18,17 @@ const Home = () => {
     return ( 
     <div>
         <nav className="nav2">
-        <Link to="/Profile" style={{fontSize: 150,  color:'black', border:'15px solid black'}}>Profile</Link>
-        <Link to='/About' style={{fontSize: 150, color:'black',border:'15px solid black' }}>About</Link>
-        <Link to='/Courses' style={{fontSize: 150, color:'black',border:'15px solid black' }}>Courses</Link>
-        <Link to='/Features' style={{fontSize: 150, color:'black',border:'15px solid black' }}>Features</Link>
+        <Link to="/Profile" style={{fontSize: 40,  color:'black', border:'2px solid black'}}>Профиль</Link>
+        <Link to='/About' style={{fontSize: 40, color:'black',border:'2px solid black' }}>Подкасты</Link>
+        <Link to='/Courses' style={{fontSize: 40, color:'black',border:'2px solid black' }}>Курсы</Link>
+        <Link to='/Features' style={{fontSize: 40, color:'black',border:'2px solid black' }}>Трудоустройство</Link>
     </nav>
-    <img src ={img}  alt="IMAGE" width="5800" />
+    <img src ={img}  alt="IMAGE" width="5000" />
     <nav className="nav2">
         {/*<Link to="/Contact" style={{fontSize: 150,  color:'black', border:'15px solid black'}}>Contact</Link>*/}
-        <Link to='/FAQ' style={{fontSize: 150, color:'black',border:'15px solid black' }}>FAQ</Link>
+        {/* <Link to='/FAQ' style={{fontSize: 50, color:'black',border:'5px solid black' }}>FAQ</Link> */}
         {isAuth()!==false? <>
-        <Link href="#" style={{fontSize: 150, color:'black',border:'15px solid black' }} onClick={logout}>Signout</Link>
+        <Link href="#" style={{fontSize: 50, color:'black',border:'5px solid black' }} onClick={logout}>Signout</Link>
         </>:<> 
            </>}
     </nav>

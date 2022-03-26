@@ -131,3 +131,11 @@
   text-align: center;
 }
 */
+
+.nav2 {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: chartreuse;
+}
